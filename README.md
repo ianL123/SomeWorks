@@ -2,6 +2,7 @@
 `gcc -o ccp main.c graphics.c`
 `./ccp | java -jar .\drawapp-2.0.jar`
 
+## Note
 All the positions of home, blocks and markers are typed in the source code. If numbers of blocks or markers are changed, the constant numMark or numBlock should also be changed.  
 All the positions finally used of markers and blocks are stored in   
 `int grid[9][9]`  
